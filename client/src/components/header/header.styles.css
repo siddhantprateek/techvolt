@@ -1,0 +1,17 @@
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+.nav-bar {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+
+
+.nav-bar li {
+    margin: 0  1rem;
+}
