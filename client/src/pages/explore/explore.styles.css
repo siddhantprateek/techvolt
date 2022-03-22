@@ -1,0 +1,46 @@
+
+
+.hero-container {
+    height: 40rem;
+    width: 100%;
+    background: url('../../static/bg.png');
+}
+/* https://airwallpaper.com/wp-content/uploads/wall001/White-HD-Wallpapers.jpg */
+
+.hero-contents {
+    padding: 5rem;
+}
+.hero-contents p {
+    font-size: 1.5rem;
+    margin-top: -1rem;
+}
+.hero-contents h1{
+    font-size: 3rem;
+    line-height: 2.5rem;
+}
+
+.nft-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contanier-1, .contanier-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nft-img {
+    width: 20rem;
+    border-radius: 20px;
+    margin: 2rem;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+
+.nft-img:hover {
+    transform: scale(1.02);
+}

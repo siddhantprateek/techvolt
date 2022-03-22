@@ -3,14 +3,30 @@ header {
     top: 0;
     width: 100%;
     border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    z-index: 2;
 }
 .nav-bar {
     display: flex;
     list-style: none;
     justify-content: center;
 }
+.nav-bar input {
+    padding: .5rem;
+    border-radius: 5px;
+    border: 1px solid grey;
+    outline: none;
+}
+.nav-bar a {
+    text-decoration: none;
+    color: black;
+}
 
-
+.brand-logo {
+    margin: .5rem 1rem;
+}
 
 .nav-bar li {
     margin: 0  1rem;
