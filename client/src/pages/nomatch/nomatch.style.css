@@ -1,0 +1,11 @@
+
+.no-match-page {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 80vh;
+}
+
+.no-match-content {
+    padding: 10rem 5rem;
+}

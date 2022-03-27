@@ -8,8 +8,6 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import 'swiper/css/autoplay';
-// import { Layout, Menu, Breadcrumb } from 'antd';
-// const { Header, Content, Footer } = Layout;
 function App() {
   return (
     <div className="App">
