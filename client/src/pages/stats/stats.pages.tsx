@@ -1,9 +1,12 @@
 import React from 'react';
-
+import NFTbadge from '../../components/NFTbadge/NFTbadge.component';
 
 function Stats() {
   return (
-    <div>Stats</div>
+    <div>
+      <h1>Stats</h1>
+      <NFTbadge/>
+    </div>
   )
 }
 

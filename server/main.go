@@ -3,15 +3,18 @@ package main
 import (
 	"fmt"
 	"net/http"
+
+	"github.com/rs/cors"
 )
 
 func main() {
 	// http.HandleFunc("/api/nft", get_nfts)
-	http.HandleFunc("/api/news", get_news)
-	http.HandleFunc("/", running)
-	http.HandleFunc("/api/topmonth", top_nft_this_month)
-	http.HandleFunc("/api/artist", get_nft_artist)
-
-	fmt.Printf("Server running at http://localhost:8888/api/topmonth ")
-	http.ListenAndServe(":8888", nil)
+	mux := http.NewServeMux()
+	mux.HandleFunc("/api/news", get_news)
+	mux.HandleFunc("/", running)
+	mux.HandleFunc("/api/topmonth", top_nft_this_month)
+	mux.HandleFunc("/api/artist", get_nft_artist)
+	handler := cors.Default().Handler(mux)
+	fmt.Printf("Server running at http://localhost:4000/api/topmonth ")
+	http.ListenAndServe(":4000", handler)
 }
