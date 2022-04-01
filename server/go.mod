@@ -1,4 +1,4 @@
-module server
+module github.com/siddhantprateek/techvolt/server
 
 go 1.17
 
