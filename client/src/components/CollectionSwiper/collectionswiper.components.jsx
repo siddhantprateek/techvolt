@@ -1,12 +1,12 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, A11y, Autoplay } from "swiper";
+import { Navigation, A11y, Autoplay } from "swiper";
 import './collectionswiper.styles.css';
-
+import topArtists from './data.json' 
 const CollectionSwiper = () => {
   return (
     <>
       <Swiper
-        modules={[Navigation, Pagination, A11y, Autoplay]}
+        modules={[Navigation, A11y, Autoplay]}
         autoplay={{
           delay: 3000,
         }}
@@ -34,10 +34,11 @@ const CollectionSwiper = () => {
         }}
         onSlideChange={() => console.log("slide change")}
       >
-        {[...Array(20)].map((val, key) => (
+        {topArtists.map((artist, key) => (
           <SwiperSlide className="swiper-slide">
             <div className="slide-div">
-              <h1>{key}</h1>
+              <h3 className="artist-title">{artist.name}</h3>
+              <img className="artist-img" src={artist.profileImageUrl} alt="" />
             </div>
           </SwiperSlide>
         ))}

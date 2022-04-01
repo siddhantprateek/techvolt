@@ -15,6 +15,6 @@ func main() {
 	mux.HandleFunc("/api/topmonth", top_nft_this_month)
 	mux.HandleFunc("/api/artist", get_nft_artist)
 	handler := cors.Default().Handler(mux)
-	fmt.Printf("Server running at http://localhost:4000/api/topmonth ")
+	fmt.Printf("Server running at \n http://localhost:4000/api/ \n http://localhost:4000/api/artist \n http://localhost:4000/api/news")
 	http.ListenAndServe(":4000", handler)
 }

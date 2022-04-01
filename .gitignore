@@ -26,3 +26,5 @@ client/yarn-error.log*
 server/.env
 server/.idea
 .env
+apidata.json
+server.exe

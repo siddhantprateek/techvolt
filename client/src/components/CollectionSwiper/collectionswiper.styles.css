@@ -1,7 +1,26 @@
 .slide-div {
-    background-color: aquamarine;
-    width: 10rem;
-    height: 20rem;
-    border: 2px solid black;
+    width: 11rem;
+    height: 15rem;
+    border: 1px solid black;
     text-align: center;
+    transition: all .5s;
+    margin: 2rem 0;
+    cursor: pointer;
+}
+
+.slide-div:hover {
+    transform: scale(1.01);
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+}
+
+.artist-title {
+    font-weight: normal;
+    height: 4rem;
+}
+
+.artist-img {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 100px;
+
 }

@@ -1,0 +1,42 @@
+.top-nft-badge {
+    width: 20rem;
+    height: 8rem;
+    border-bottom: 1px solid rgba(99, 99, 99, 0.473);
+    padding: 1rem 2rem;
+    transition: all .5s;
+    margin: 0 .5rem;
+    /* border: 1px solid black; */
+    color: #272727;
+    line-height: 10px;
+    display: flex;
+    border-radius: 10px;
+}
+
+.top-nft-badge:hover {
+    transform: scale(1.02);
+    box-shadow: 2px 0px 10px 5px #4747472f;
+    border: none;
+}
+.top-nft-badge:hover h1{
+    color: #e2e24b;
+}
+
+
+.nft-badge-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nft-badge-container a {
+    text-decoration: none;
+}
+
+.nft-details {
+    padding: 0 2rem;
+    width: 100%;
+}
+
+.nft-details b {
+    color: #1bd853;
+}

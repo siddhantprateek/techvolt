@@ -1,6 +1,6 @@
 import React from 'react';
 import './collections.style.css';
-import { CollectionSwiper } from '../../components';
+import { CollectionSwiper, Topartist } from '../../components';
 function Collections() {
   
   return (
@@ -9,6 +9,9 @@ function Collections() {
         Collections
       </h1>
       <CollectionSwiper/>
+      <div className="artist-container-section">
+        <Topartist/>
+      </div>
     </div>
     
   )
