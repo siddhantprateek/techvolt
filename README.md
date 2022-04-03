@@ -1,3 +1,5 @@
+![badge](https://img.shields.io/badge/Project_Status-IN_PROGRESS-green?style=for-the-badge&logo=appveyor)
+
 # Techvolt
 
 It is a NFT Collection application like Open Sea.
