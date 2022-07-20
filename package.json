@@ -1,0 +1,21 @@
+{
+  "name": "techvolt",
+  "version": "1.0.0",
+  "description": "![badge](https://img.shields.io/badge/Project_Status-IN_PROGRESS-green?style=for-the-badge&logo=appveyor)",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && npm run start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siddhantprateek/techvolt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siddhantprateek/techvolt/issues"
+  },
+  "homepage": "https://github.com/siddhantprateek/techvolt#readme"
+}
