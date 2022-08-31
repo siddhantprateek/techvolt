@@ -7,6 +7,13 @@ require github.com/joho/godotenv v1.4.0
 require github.com/rs/cors v1.8.2
 
 require (
+	github.com/99designs/gqlgen v0.17.16 // indirect
+	github.com/gorilla/websocket v1.5.0 // indirect
+	github.com/hashicorp/golang-lru v0.5.4 // indirect
+	github.com/mitchellh/mapstructure v1.3.1 // indirect
+)
+
+require (
 	github.com/agnivade/levenshtein v1.1.1 // indirect
 	github.com/cpuguy83/go-md2man/v2 v2.0.1 // indirect
 	github.com/go-stack/stack v1.8.0 // indirect
@@ -15,7 +22,7 @@ require (
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/urfave/cli/v2 v2.8.1 // indirect
-	github.com/vektah/gqlparser/v2 v2.4.6 // indirect
+	github.com/vektah/gqlparser/v2 v2.5.0 // indirect
 	github.com/xdg-go/pbkdf2 v1.0.0 // indirect
 	github.com/xdg-go/scram v1.0.2 // indirect
 	github.com/xdg-go/stringprep v1.0.2 // indirect
