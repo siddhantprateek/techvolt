@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"os"
 	"github.com/rs/cors"
-	"honnef.co/go/tools/analysis/facts/generated"
+	// "honnef.co/go/tools/analysis/facts/generated"
 )
 
 func main() {
@@ -17,7 +17,7 @@ func main() {
 		log.Printf("defaulting to port %s", port)
 	}
 
-	srv := handler.NewDefaultServer(generated.NewExecutableSchema(generated.Config{Resolvers: &graph.Resolver{}}))
+	// srv := handler.NewDefaultServer(generated.NewExecutableSchema(generated.Config{Resolvers: &graph.Resolver{}}))
 
 	mux := http.NewServeMux()
 	mux.HandleFunc("/api/news", get_news)
